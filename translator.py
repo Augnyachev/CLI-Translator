@@ -16,7 +16,7 @@ class MultilingualOnlineTranslator:
         if (self.source_language.title() not in self.languages_list) or \
                 ((self.destination_language.title() not in self.languages_list) and
                  (self.destination_language != "all")):
-            print("Sorry, the program doesn't support korean")
+            print("Sorry, the program doesn't support this lang")
         else:
             if self.destination_language == "all":
                 for i in range(0, len(self.languages_list)):
